@@ -10,3 +10,8 @@ git clone https://github.com/StephenGrider/WebpackProject.git
 cd WebpackProject
 npm install
 ```
+
+```
+npm run serve
+
+```
