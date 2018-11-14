@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 
+// testing
 module.exports = {
   entry: './src/index.js',
   output: {
