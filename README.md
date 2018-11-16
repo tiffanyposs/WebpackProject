@@ -25,12 +25,23 @@ $ webpack -p
 
 ### Deployment
 
-Easiest:
+Surge:
 
 [Surge](https://surge.sh/)
 
 ```
 $ npm install -g surge
 $ surge -p dist
+
+```
+
+Github:
+
+Create a new branch called `gh-pages`.
+
+Then you only want to push the dist folder that you want to deploy:
+
+```
+$ git subtree push --prefix dist origin gh-pages
 
 ```
