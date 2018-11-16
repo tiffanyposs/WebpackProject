@@ -15,3 +15,16 @@ npm install
 npm run serve
 
 ```
+
+Minify when built
+
+```
+$ webpack -p
+
+```
+
+### Deployment
+
+Easiest:
+
+[Surge](https://surge.sh/)
