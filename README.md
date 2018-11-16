@@ -28,3 +28,9 @@ $ webpack -p
 Easiest:
 
 [Surge](https://surge.sh/)
+
+```
+$ npm install -g surge
+$ surge -p dist
+
+```
