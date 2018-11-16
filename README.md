@@ -10,3 +10,21 @@ git clone https://github.com/StephenGrider/WebpackProject.git
 cd WebpackProject
 npm install
 ```
+
+```
+npm run serve
+
+```
+
+Minify when built
+
+```
+$ webpack -p
+
+```
+
+### Deployment
+
+Easiest:
+
+[Surge](https://surge.sh/)
